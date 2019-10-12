@@ -110,6 +110,5 @@ if __name__ == "__main__":
     met2 = "Selpak Kağıt Havlu 12'li"
     print('Levenshtein Distance: {}, MatchScore: {} '.\
           format(levenshtein(met1, met2), levenshtein_rate(met1, met2)))
-#    print('Sorted Levenshtein Distance: ', sorted_levenshtein(met1, met2))
     print('Sorted Levenshtein Distance: {}, MatchScore: {} '.\
           format(sorted_levenshtein(met1, met2), sorted_levenshtein_rate(met1, met2)))
